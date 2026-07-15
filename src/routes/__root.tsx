@@ -64,6 +64,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+{
+  name: "google-site-verification",
+  content: "0jjBQ9F5p9O4LSB-Y3oSw5wVPiAvUYLhryXOkWZKLFk"
+},  
       { title: "NexaStore — Smart Shopping, Better Living" },
       { name: "description", content: "NexaStore — a premium online store bringing you curated electronics, fashion, home, beauty, sports & more. Cash on Delivery across Pakistan." },
       { name: "author", content: "NexaStore" },
@@ -99,7 +103,7 @@ function RootShell({ children }: { children: ReactNode }) {
       <body>
         {children}
         <Scripts />
-        <meta name="google-site-verification" content="0jjBQ9F5p9O4LSB-Y3oSw5wVPiAvUYLhryXOkWZKLFk" />
+        
       </body>
     </html>
   );
