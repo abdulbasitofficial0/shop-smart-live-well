@@ -99,6 +99,7 @@ function RootShell({ children }: { children: ReactNode }) {
       <body>
         {children}
         <Scripts />
+        <meta name="google-site-verification" content="0jjBQ9F5p9O4LSB-Y3oSw5wVPiAvUYLhryXOkWZKLFk" />
       </body>
     </html>
   );
@@ -114,6 +115,7 @@ function AppLayout({ children }: { children: ReactNode }) {
       <main className="flex-1">{children}</main>
       <Footer />
       <WhatsAppButton />
+      
     </div>
   );
 }
